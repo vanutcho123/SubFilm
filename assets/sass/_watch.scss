@@ -1,0 +1,30 @@
+.watch {
+  &-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 60px;
+  }
+  &-content {
+    flex: 0.8;
+  }
+  &-title {
+    color: $clr-blue-light;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    line-height: 1.5;
+  }
+  &-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  &-display {
+    flex: 1;
+  }
+  &-video {
+    width: 100%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  }
+}

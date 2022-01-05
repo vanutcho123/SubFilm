@@ -1,0 +1,33 @@
+.landing {
+  &-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  &-content {
+    flex: 0.8;
+  }
+  &-title {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1.5;
+    padding-bottom: 8px;
+    span {
+      font-size: 25px;
+      font-weight: bold;
+      line-height: 1.5;
+    }
+  }
+  &-text {
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  &-display {
+    flex: 1;
+  }
+  &-video {
+    width: 100%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  }
+}
