@@ -9,7 +9,7 @@ body {
   color: $clr-text-main;
   font-family: $ff-primary;
   font-size: 17px;
-  font-weight: 400;
+  font-weight: 450;
   line-height: 1.5;
   letter-spacing: 0.7px;
   scroll-behavior: smooth;
@@ -32,7 +32,7 @@ body {
     border-radius: 10px;
     padding: 7px 20px;
     transition: $transitionAll;
-    font-weight: 500;
+    font-weight: 400;
     &:hover {
       color: $clr-primary;
       background: #fff;
